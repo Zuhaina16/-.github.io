@@ -1,36 +1,1 @@
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>রংতুলি | About Us</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header>
-    <nav>
-      <a href="index.html">About Us</a>
-      <a href="shop.html">Shop</a>
-      <a href="donate.html">Donate</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <section class="about-section">
-    <div class="about-left">
-      <h1>রংতুলি</h1>
-    </div>
-    <div class="about-divider">|</div>
-    <div class="about-left"> <img src="IMG_5297.jpeg" alt="" 
-     class="about-left"> 
-      <p>রংতুলি based in Dhaka, Bangladesh is a simple website dedicated to showing the artistry of underprivileged individuals. Through developing skills and providing opportunities we wish to uplift the community. Making sure everyone lives with dignity and purpose.</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 রংতুলি | Creating Opportunities, Ending the Cycle of Poverty</p>
-  </footer>
-
-</body>
-</html>
+<!DOCTYPE html> <html lang="bn"> <head>   <meta charset="UTF-8">   <meta name="viewport" content="width=device-width, initial-scale=1.0">   <title>রংতুলি | About Us</title>   <!-- Load Tailwind CSS for styling and responsiveness -->   <script src="https://cdn.tailwindcss.com"></script>   <style>     /* Custom style for the specified color and font */     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');     body {       font-family: 'Inter', sans-serif;       background-color: #1a1a2e; /* Dark background for contrast */       color: #ffffff;     }     .text-rangtuli {         color: #FBE48E; /* Specified yellow color */     }   </style> </head> <body class="min-h-screen flex flex-col">    <!-- Header and Navigation -->   <header class="bg-gray-800 p-4 shadow-lg">     <nav class="flex justify-center space-x-4 sm:space-x-8 font-medium">       <a href="index.html" class="text-rangtuli border-b-2 border-rangtuli pb-1 transition duration-300">About Us</a>       <a href="shop.html" class="text-white hover:text-rangtuli transition duration-300">Shop</a>       <a href="donate.html" class="text-white hover:text-rangtuli transition duration-300">Donate</a>       <a href="contact.html" class="text-white hover:text-rangtuli transition duration-300">Contact</a>     </nav>   </header>    <!-- Main Content Section -->   <main class="flex-grow container mx-auto p-4 sm:p-8">     <section class="about-section bg-gray-900 p-6 sm:p-10 rounded-xl shadow-2xl">              <!-- Centered Title: রংতুলি (Large, Bold, Yellow) -->       <div class="mb-8 border-b border-gray-700 pb-4">         <h1 class="text-5xl sm:text-7xl font-extrabold text-rangtuli text-center tracking-wider">           রংতুলি         </h1>       </div>        <!-- Content Layout: Image on Left, Description on Left/Middle -->       <div class="flex flex-col lg:flex-row lg:space-x-8 items-start">                  <!-- Image on the Very Left -->         <div class="w-full lg:w-2/5 mb-6 lg:mb-0 flex-shrink-0">           <!-- Placeholder image used as the original file is not accessible -->           <img src=“IMG_5297.jpeg"                 alt=""                 class="w-full h-auto object-cover rounded-lg shadow-xl hover:shadow-rangtuli transition duration-500 ease-in-out transform hover:scale-[1.01]"                onerror="this.onerror=null;this.src='https://placehold.co/500x350/6e6e6e/ffffff?text=Image+Unavailable';"           >         </div>                  <!-- Description next to the image (on the left side of the main content area) -->         <div class="w-full lg:w-3/5 text-left">           <p class="text-lg sm:text-xl leading-relaxed text-gray-300">             রংতুলি based in Dhaka, Bangladesh is a simple website dedicated to showing the artistry of underprivileged individuals. Through developing skills and providing opportunities we wish to uplift the community. Making sure everyone lives with dignity and purpose.           </p>           <a href="#" class="mt-6 inline-block bg-rangtuli text-gray-900 font-bold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-0.5">             Learn More About Our Mission           </a>         </div>       </div>     </section>   </main>    <!-- Footer -->   <footer class="bg-gray-800 p-4 mt-auto text-center">     <p class="text-sm text-gray-400">© 2025 রংতুলি | Creating Opportunities, Ending the Cycle of Poverty</p>   </footer>  </body> </html> 
